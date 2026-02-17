@@ -1,55 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/w2K2TJfP)
-# Purpose of This Repository
+# Java OOP Applications
 
-This repository is created to store all lab projects for the ISP class. Each lab project will be downloaded, worked on, and submitted using GitHub.
+Collection of Java applications developed as part of academic coursework, focused on object-oriented programming principles and software design.
 
-## Repository Structure
+## Technologies
+- Java
+- Maven
+- Object-Oriented Programming (OOP)
+- Git
 
-The repository follows a structured format with subfolders for each lab project. Each subfolder follows a standard Maven repository structure:
+## Project Structure
+The repository contains multiple independent Java projects, each structured as a standard Maven application:
 
-```
-/isp-lab-1/
-    /src/
-    /pom.xml
-    /README.md
+/isp-lab-X/
+- src/
+- pom.xml
+- README.md
 
-/isp-lab-2/
-    /src/
-    /pom.xml
-    /README.md
-```
+Each project demonstrates:
+- OOP concepts (encapsulation, inheritance, polymorphism)
+- Modular design
+- Clean project structure using Maven
+- Version control using Git
 
-Each subfolder contains:
-- A `src/` directory for source code.
-- A `pom.xml` file for Maven project management.
-- A `README.md` file with specific instructions for the lab.
-
-## Procedure for Adding a New Lab Project
-
-1. **Download the Lab Project Archive**
-   - A ZIP archive containing the lab project will be provided.
-   - Download it into this repository.
-
-2. **Unpack and Remove the ZIP File**
-   - Extract the contents of the ZIP file.
-   - Delete the ZIP file after extraction to keep the repository clean.
-
-3. **Open the Project in Your IDE**
-   - Open the extracted project folder in your preferred IDE.
-   - Start working on the exercises found in the README file inside the project.
-
-4. **Complete and Submit Your Work**
-   - Solve all exercises as instructed.
-   - Once finished, commit and push your changes using the following commands:
-     ```sh
-     git add .
-     git commit -m "Completed Lab Project X"
-     git push origin main
-     ```
-
-## Important Notes
-- Always ensure your work is properly committed and pushed.
-- Check the README of each project for specific instructions.
-- Keep your repository updated by pulling the latest changes before starting a new lab.
-
-If you have any questions, ask during class or refer to GitHub documentation.
+## Purpose
+These projects were developed to strengthen practical understanding of software architecture, project structure, and object-oriented design in Java.
